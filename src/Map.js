@@ -1,9 +1,13 @@
 import * as React from 'react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import ReactMapGL from 'react-map-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
 function Map() {
+  useEffect(() => {
+    console.log('Hello');
+  }, []);
+
   const [viewport, setViewport] = useState({
     width: '100vw',
     height: '100vh',
