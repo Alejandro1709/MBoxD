@@ -1,0 +1,10 @@
+.marker {
+  stroke: green;
+  height: 50px;
+  width: 50px;
+  transform: translate(-50%, -100%);
+}
+
+.popup {
+  max-width: 300px;
+}
